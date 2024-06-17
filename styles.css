@@ -1,0 +1,47 @@
+/* add your CSS here */
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.parent-container {
+    border: 1px solid lightgray;
+    width: 350px;
+    font-family: Optima, sans-serif;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    box-shadow: 10px 5px 40px black;
+}
+
+.title {
+    margin: 10px auto;
+    width: 300px;
+    padding: 5px;
+}
+
+.dog-img{
+    display: block;
+    margin: auto;
+}
+
+.card-description {
+    border: 1px solid lightgray;
+    width: 300px;
+    margin: 10px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.animal-fact {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
